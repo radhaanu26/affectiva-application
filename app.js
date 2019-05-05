@@ -150,7 +150,13 @@ stopBtn.addEventListener("click", function () {
 
             smirk: 'Smirk',
 
-            upperLipRaise: 'UpperLipRaise'
+            upperLipRaise: 'UpperLipRaise',
+
+            interocularDistance: 'Interocular distance',
+
+            pitch: 'Pitch',
+            yaw: 'Yaw',
+            roll: 'Roll'
 
            
 
@@ -314,7 +320,13 @@ detector.addEventListener("onImageResultsSuccess", function (faces, image, times
 
             smirk: face.expressions.smirk,
 
-            upperLipRaise: face.expressions.upperLipRaise     
+            upperLipRaise: face.expressions.upperLipRaise,
+            interocularDistance: face.measurements.interocularDistance,
+
+            pitch: face.measurements.orientation.pitch,
+            yaw: face.measurements.orientation.yaw,
+            roll: face.measurements.orientation.roll
+
 
            
 
