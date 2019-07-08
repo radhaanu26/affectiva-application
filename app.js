@@ -421,7 +421,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ['Anger', 'Disgust', 'Fear', 'Joy', 'Sadness', 'Surprise'],
         datasets: [{
-            label: 'Probability',
+            label: 'Probability on the scale of 0-100',
             data: [0, 0, 0, 0, 0, 0],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
